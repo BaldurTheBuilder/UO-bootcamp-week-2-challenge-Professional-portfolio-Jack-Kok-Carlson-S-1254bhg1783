@@ -1,0 +1,107 @@
+
+/*we are defining the variables in the :root so they may be used globally.*/
+/*color pallate generated randomly from https://coolors.co/*/
+:root {
+    --aquamarine: #74d3ae;
+    --darkGreen: #678d58;
+    --olive: #A6C48A;
+    --redGrey: #847577;
+    --Brownie: #453823;
+    --defaultCardBorderLength: 300px;
+}
+
+body {
+    font-size: 20px;
+    font-weight: 500;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: var(--Brownie);
+}
+
+
+header {
+    background-color: var(--olive);
+    color: var(--redGrey);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 25px;
+}
+
+h1{
+    font-size: 40px;
+}
+
+h2{
+    font-size: 25px;
+}
+
+h3{
+    font-size: 20px;
+}
+
+footer {
+    display: flex; 
+    flex-wrap: wrap;
+    background-color: var(--Brownie);
+    color: var(--darkGreen);
+    font-weight: 600;
+    padding: 20px;
+}
+
+nav {
+    color: var(--olive);
+    margin-top: 20px;
+    /* justify-content: flex-end; */
+    justify-content: space-between;
+    margin: 5px;
+}
+
+section{
+    background-color: var(--aquamarine);
+    color: var(--Brownie);
+    display: flex;
+    flex-wrap: wrap;
+    padding: 25px;
+    margin: 25px;
+}
+
+.primarySection{
+    height: 75px;
+    background-color: var(--redGrey);
+    background-image: url(../images/genericBannerImage.jpeg);
+    justify-content: space-between;
+}
+
+.workSection{
+    justify-content: center;
+}
+
+.primaryCard, .secondaryCards{
+    border-style: solid;
+    margin: 10px;
+    padding: 5px;
+    flex: 1 0 300px;
+    background-color: var(--olive);
+    color: var(--Brownie);
+    border: 1px solid var(--darkGreen);
+    height: var(--defaultCardBorderLength);
+
+}
+
+.primaryCard img, .secondaryCards img {
+    width: 200px;
+    height: 200px;
+    padding: 50px;
+}
+
+
+.primaryCard{
+    flex: 1 0 550px;
+}
+
+
+@media screen and (max-width: 700px) {
+    nav{
+        flex-direction: column;
+    }
+  }

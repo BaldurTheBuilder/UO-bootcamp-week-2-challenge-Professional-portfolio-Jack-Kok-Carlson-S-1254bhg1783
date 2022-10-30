@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <title>Jack Kok-Carlson's Portfolio</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+</head>
+
+
+<!-- The entire body of the site is based around flexboxes so it functions on multiple devices. -->
+<body>
+
+    <!-- header with my name and a series of links to sections in the body. These links lead to the About Me, Work, and Contact Me sections. 
+        The example code includes one for a resume. The text is in a unique color and the background is a different color.-->
+    <Header>
+        <h1>Jack Kok-Carlson</h1>
+        <nav>
+            <a href="#About-Me">About Me </a>
+            <a href="#My-Work">My Work </a>
+            <a href="#Contact-Me">Contact Me </a>
+        </nav>
+
+    </Header>
+    
+    <!-- Section one: profile. Includes a banner image, profile picture, and a subtitle. -->
+    <section id="Profile" class="primarySection">
+        <h2>My Portfolio</h2>
+        <img src="./assets/images/basicProfilePicture.webp" alt="basicProfilePicture" width="100" height="80">
+    </section>
+
+    <!-- Section two: About Me. includes "About Me" as a title to the left, and several paragraphs describing me as the body. -->
+    <section id="About-Me">
+        <h2>About Me</h2>
+        <p>Welcome to my portfolio! Below you may find a section with examples of my previous work. In fact, this site itself is one project I have undertaken as a part of the
+            University of Oregon full stack coding bootcamp! I originally enrolled in this bootcamp to facilitate a change in careers. At the bottom of the page you can find 
+            contact information including my phone number, email address, and a link to my github account.
+        </p>
+    </section>
+
+    <!-- Section three: Work. This is the main section of the site. Includes a "Work" title, and several cards that act as links to my work. The links should have some form of
+    animation on them when you hover over them. The first card should be unique and take up extra space. -->
+    <section id="My-Work" class="workSection">
+        <h2>My Work</h2>
+        <div class="primaryCard">
+            <h3>Prework Study Guide</h3>
+            <a href="https://github.com/BaldurTheBuilder/prework-study-guide"><img src="./assets/images/preworkStudyGuide.png" alt="prework study guide"></a>
+        </div>
+        <div class="secondaryCards">
+            <h3>Debugging Practice</h3>
+            <a href="https://github.com/BaldurTheBuilder/weekOneChallenge"><img src="./assets/images/weekOneChallenge.png" alt="Debugging Practice Code"></a>
+        </div>
+        <div class="secondaryCards">
+            <a href="#"><img src="./assets/images/placeholderImage.png" alt="placeholderImage"></a>
+        </div>
+        <div class="secondaryCards">
+            <a href="#"><img src="./assets/images/placeholderImage.png" alt="placeholderImage"></a>
+        </div>
+        <div class="secondaryCards">
+            <a href="#"><img src="./assets/images/placeholderImage.png" alt="placeholderImage"></a>
+        </div>
+        <div class="secondaryCards">
+            <a href="#"><img src="./assets/images/placeholderImage.png" alt="placeholderImage"></a>
+        </div>
+        <div class="secondaryCards">
+            <a href="#"><img src="./assets/images/placeholderImage.png" alt="placeholderImage"></a>
+        </div>
+    </section>
+
+    <!-- Section four: Contact Me. Includes a "Contact Me" title and a series of links, including a phone number, email, and github. 
+        Note: fields don't have to be filled with real info right now. -->
+    <footer id="Contact-Me">
+        <H2>Contact Me</H2>
+        <nav>
+            <a href="tel:+5038691022">503-869-1022</a>
+            <a href="mailto: jack.kokcarlson@gmail.com">jack.kokcarlson@gmail.com</a>
+            <a href="https://github.com/BaldurTheBuilder">github</a>
+        </nav>
+    </footer>
+</body>
+
+</html>
