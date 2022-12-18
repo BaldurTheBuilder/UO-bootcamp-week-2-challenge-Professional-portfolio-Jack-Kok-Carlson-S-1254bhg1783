@@ -12,7 +12,7 @@
 
 body {
     font-size: 20px;
-    font-weight: 500;
+    font-weight: bold;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: var(--Brownie);
 }
@@ -88,12 +88,17 @@ section{
 
 }
 
-.primaryCard img, .secondaryCards img {
-    width: 200px;
+.primaryCard img {
+    width: 400px;
     height: 200px;
     padding: 50px;
 }
 
+.secondaryCards img {
+    width: 200px;
+    height: 200px;
+    padding: 50px;
+}
 
 .primaryCard{
     flex: 1 0 550px;
